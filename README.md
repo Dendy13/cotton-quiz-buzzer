@@ -86,7 +86,7 @@ The system uses a **modular RJ11-based topology**. All logic operates at 5V DC, 
 To safely drive a 220V AC buzzer from a 5V microcontroller:
 
 ```text
-[Arduino D4] ──► [220Ω] ──► [NPN Base]
+[Arduino D7] ──► [220Ω] ──► [NPN Base]
                        │
 [5V] ──► [Relay Coil] ──► [NPN Collector]
                        │
