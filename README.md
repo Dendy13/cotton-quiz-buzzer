@@ -102,7 +102,7 @@ To safely drive a 220V AC buzzer from a 5V microcontroller:
 
 ### 🔗 Modular Connectivity
 Player boxes connect to the Reset Box via **RJ11 telephone ports**, enabling:
-- Plug-and-play expansion (up to 4 players)
+- Plug-and-play expansion (up to 3 players)
 - Easy troubleshooting & component replacement
 - Clean cable management with stranded telephone wire
 
