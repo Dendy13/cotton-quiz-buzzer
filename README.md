@@ -69,20 +69,18 @@ The system uses a **modular RJ11-based topology**. All logic operates at 5V DC, 
 ### 📌 Pin Assignment (Arduino UNO)
 | Component | Arduino Pin | Signal Type | Notes |
 | :--- | :--- | :--- | :--- |
-| Reset Button | D2 | Digital Input | Internal `INPUT_PULLUP` enabled |
-| Reset LED | D3 | Digital Output | Active HIGH |
-| Buzzer Relay Control | D4 | Digital Output | Drives NPN transistor base |
+| Reset Button | D6 | Digital Input | Internal `INPUT_PULLUP` enabled |
+| Buzzer (via Relay) | D7 | Digital Output | Controls relay for AC buzzer |
 | Player 1 Button | D13 | Digital Input | Active LOW |
 | Player 1 LED | D12 | Digital Output | Active HIGH |
 | Player 2 Button | D11 | Digital Input | Active LOW |
 | Player 2 LED | D10 | Digital Output | Active HIGH |
 | Player 3 Button | D9 | Digital Input | Active LOW |
 | Player 3 LED | D8 | Digital Output | Active HIGH |
-| Player 4 Button | D7 | Digital Input | Active LOW |
-| Player 4 LED | D6 | Digital Output | Active HIGH |
 | VCC | 5V | Power | Logic supply |
 | GND | GND | Power | Common ground |
 
+**Note:** System designed for **3 players** + 1 reset button.
 ### ⚡ Relay Isolation Circuit (AC-DC Interfacing)
 
 To safely drive a 220V AC buzzer from a 5V microcontroller:
