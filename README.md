@@ -120,14 +120,14 @@ The firmware was developed in collaboration with the Main Programmer.
 
 ## 🧠 Inspiration & References
 
-### "HARTA KARUN" Arduino Quiz Buzzer by Geo (2019)
+### Arduino Quiz Buzzer by Geo (2019)
 *   **File:** [`references/Cotton_reference.pdf`](references/Cotton_reference.pdf)
 *   **Used as conceptual reference for:** Lockout logic, button polling, state machine design.
 *   **Cotton's Original Contributions:**
-    *   Modular RJ11-based hardware topology (vs. direct wiring in reference).
-    *   Relay-based AC buzzer integration for 220V audio output.
-    *   Custom acrylic enclosure design with educational documentation.
-    *   BOM optimization for Indonesian school context (~Rp 1.022.900).
+*   Modular RJ11-based hardware topology (vs. direct wiring in reference).
+*   Relay-based AC buzzer integration for 220V audio output.
+*   Custom acrylic enclosure design with educational documentation.
+*   BOM optimization for Indonesian school context (~Rp 1.022.900).
 
 *Note: Source of reference file unverified; included for educational transparency.*
 
@@ -141,9 +141,9 @@ This project was a collaborative effort by the FCC Team (SMA Negeri 4 Denpasar):
 | :--- | :--- | :--- |
 | **Dendy Fajar Kurniawan** | **Main Engineer** | Hardware architecture, relay circuit design, AC-DC power integration, assembly, and testing. |
 | **Arasel Bezaleel Thenilo** | **Main Programmer** | Firmware development (Embedded C), algorithm logic, and debugging. |
-| Nizar Heyden Susilo | Main Designer | Mechanical design and enclosure layout. |
-| Nayaka Alkaesyah Suryanto | Team Leader | Project management, documentation, and planning. |
-| Bijan Ramadhan Aditri | Video Editor | Documentation and video editing. |
+| **Nizar Heyden Susilo** | **Main Designer** | Mechanical design and enclosure layout. |
+| **Nayaka Alkaesyah Suryanto** | **Team Leader** | Project management, documentation, and planning. |
+| **Bijan Ramadhan Aditri** | **Video Editor** | Documentation and video editing. |
 
 ---
 
