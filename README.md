@@ -84,14 +84,18 @@ The system uses a **modular RJ11-based topology**. All logic operates at 5V DC, 
 | GND | GND | Power | Common ground |
 
 ### ⚡ Relay Isolation Circuit (AC-DC Interfacing)
-To safely drive a 220V AC buzzer from a 5V microcontroller:
-[Arduino D4] ──► [220Ω] ──► [NPN Base]
-│
-[5V] ──► [Relay Coil] ──► [NPN Collector]
-│
-[GND] ◄── [1N4007 Diode] ◄──┘ (Flyback protection)
-[Relay NO Contact] ──► [220V AC Live] ──► [Buzzer] ──► [Neutral]
 
+To safely drive a 220V AC buzzer from a 5V microcontroller:
+
+```text
+[Arduino D4] ──► [220Ω] ──► [NPN Base]
+                       │
+[5V] ──► [Relay Coil] ──► [NPN Collector]
+                       │
+[GND] ◄── [1N4007 Diode] ◄──┘  (Flyback protection)
+
+[Relay NO Contact] ──► [220V AC Live] ──► [Buzzer] ──► [Neutral]
+```
 - **Galvanic Isolation**: Relay physically separates AC mains from DC logic
 - **Signal Integrity**: No voltage spikes or noise coupling into Arduino GPIO
 - **Safety Margin**: Relay rated >250V AC / 10A, derated for student use
